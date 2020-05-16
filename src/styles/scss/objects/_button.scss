@@ -1,0 +1,17 @@
+.btn {
+  padding: 5px;
+
+  @media (max-width: $breakpoint-576) {
+    padding: 1px;
+  }
+
+  .arrow-icon {
+    height: 18px;
+    transition: transform 0.3s;
+
+    &_rotated {
+      transform: rotate(180deg);
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+.table {
+
+  .cell {
+    vertical-align: middle;
+  }
+
+  .cell_mobile-hidden {
+    @media (max-width: $breakpoint-576) {
+      display: none;
+    }
+  }
+}

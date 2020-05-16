@@ -1,0 +1,14 @@
+.custom-input {
+  color: $c-black;
+  font-weight: bold;
+
+  &::placeholder {
+    color: $c-black;
+    font-weight: bold;
+  }
+}
+
+.custom-select {
+  color:  $c-black;
+  font-weight: bold;
+}
